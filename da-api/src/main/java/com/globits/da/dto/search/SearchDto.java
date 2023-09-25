@@ -15,7 +15,7 @@ public class SearchDto {
 	private UUID productCategory;
 	private Date fromDate;
 	private Date toDate;
-	
+
 	public UUID getProductCategory() {
 		return productCategory;
 	}

@@ -23,5 +23,4 @@ public interface CategoryRepository extends JpaRepository<Category, UUID>{
 	List<CategoryDto> getAllCategory();
 
 	Category findOneByCode(String code);
-	
 }
